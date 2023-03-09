@@ -1,0 +1,175 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    font-size: 1.2rem;
+    cursor:pointer;
+    
+}
+.color-button,.image-button {
+    width: 140px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin:   10px 0 0  0;
+
+}
+
+/* background color */
+.box-1 {
+    height: 250px;
+    width: 400px;
+    margin: 100px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3,33.4%);
+    grid-template-rows: repeat(3,33.4%);
+
+    
+}
+
+.color-box{
+    border: 1px solid #000;
+    margin: 0;
+}
+
+.first-hide{
+    display: none;
+}
+
+.MediumTurquoise{
+    background-color: MediumTurquoise;
+}
+
+.FireBrick{
+    background-color: FireBrick;
+}
+
+.LightGreen{
+    background-color: LightGreen;
+}
+.LawnGreen{
+    background-color: LawnGreen;
+}
+
+.Silver{
+    background-color: Silver;
+}
+
+.OrangeRed{
+    background-color: OrangeRed;
+}
+
+.Blue{
+    background-color: Blue;
+}
+
+.DarkMagenta{
+    background-color: DarkMagenta;
+}
+
+.Olive{
+    background-color: Olive;
+}
+
+/* background image */
+
+.box-2{
+    width: 480px;
+    height: 300px;
+    margin: 50px auto;
+
+
+    display: grid;
+    grid-template-columns: repeat(3,160px);
+    grid-template-rows: repeat(3,100px);
+    cursor: pointer;
+   
+}
+
+.image-box{
+    border: 2px solid #000;
+    margin: 0;
+    padding: 0;
+}
+
+.second-hide{
+    display: none;
+}
+
+.first-img{
+    background-image: url('.//img/pexels-lukas-rodriguez-3680219.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+ 
+}
+
+.second-img{
+    background-image: url('.//img/india-in-pictures-beautiful-places-to-photograph-taj-mahal.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.third-img{
+    background-image: url('.//img/marguerite-729510__340.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.fourth-img{
+    background-image: url('.//img/3292878.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+} 
+
+.fifth-img{
+    background-image: url('.//img/pexels-pixabay-47547.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.sixth-img{
+    background-image: url('.//img/wide-angle-shot-of-a-single-tree-growing-under-a-clouded-sky-during-a-sunset-surrounded-by-grass_181624-22807.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.seventh-img{
+    background-image: url('.//img/beautiful-moraine-lake-banff-national-park-alberta-canada_131985-98.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.eighth-img{
+    background-image: url('.//img/carbon-fiber-shelby-mustang-1600685276.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.ninth-img{
+    background-image: url('.//img/tmp_vw4Glr_346f3ad519b5ffa6_thula-na-ddJ9PNYjric-unsplash.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
